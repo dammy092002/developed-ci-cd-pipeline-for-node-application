@@ -12,7 +12,7 @@ COPY package*.json ./
 RUN npm install
 # If you are building your code for production
 # RUN npm install --only=production
-pack it
+
 # Bundle app source
 COPY . .
 
