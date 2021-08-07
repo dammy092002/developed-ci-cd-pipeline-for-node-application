@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/dammy092002/udacity'
+        git 'https://github.com/dammy092002/developed-ci-cd-pipeline-for-node-application'
   }
 }
     stage('DockerLint') {
