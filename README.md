@@ -49,7 +49,8 @@ The CI and CD pipelines are defined in the attached Jenkinsfile. Note that the K
 
 
 
-
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 
 
