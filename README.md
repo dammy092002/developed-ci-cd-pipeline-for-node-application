@@ -26,11 +26,9 @@ The complete pipeline is well described in the attached Jenkinsfile.
 ## The environment setup:
 There are 2 environments essential for this setup.
 
-(1) Jenkins
-Jenkins and all required plugins are installed on ubuntu VM in AWS.
+* Jenkins and all required plugins are installed on ubuntu VM in AWS.
 
-(2) AWS
-The AWS Environment was set up using AWS CloudFormation scripts. This is divided into 3 steps
+* The AWS Environment was set up using AWS CloudFormation scripts. This is divided into 3 steps
 
 (i) Building the base AWS Infrastructure which consists of VPC, Networks, etc. The scripts used are myinfrac.yml and infra-parameter-file.json. Run the commands below to set up the Infrastructure
 ./create.sh infra myinfrac.yml infra-parameter-file.json
